@@ -14,13 +14,10 @@
     dct:provenance [ a dct:ProvenanceStatement ;
                       rdfs:label "Recorded surveillance video data collected from drones deployed in UC2 test site."@en ] ;
     dcat:keyword "drone", "surveillance video", "recorded video" ;
-    dcat:contactPoint [ a vcard:Kind ;
-                        vcard:hasEmail <mailto:contact@ac3-project.eu> ;
-                        vcard:hasName "AC3 Project Team" ;
-                        vcard:fn "AC3 Project" ] ;
+    dcat:contactPoint <https://ac3-project.eu/contact-us> ;
     dcat:distribution [ a dcat:Distribution ;
                         dct:format <http://publications.europa.eu/resource/authority/file-type/MP4> ;
-                        dcat:accessURL <https://ac3-project.eu/data/uc2/recorded-surveillance-video.mp4> ;
+                        dcat:accessURL <https://imisathena.sharepoint.com/:f:/r/sites/AC3/Shared%20Documents/General/WP5/UC2?csf=1&web=1&e=em7UHP> ;
                         dct:license <https://creativecommons.org/licenses/by/4.0/> ;
                         dct:title "Recorded Surveillance Video MP4 (Available Soon)" ;
                         dct:description "MP4 file containing recorded surveillance video data. Data will be generated and available soon." ] .
